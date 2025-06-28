@@ -72,9 +72,7 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in  JavaScript, and expertise in frameworks 
-        like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, 
-        scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+        I build intelligent, data‑driven applications using Python, scikit‑learn, and TensorFlow. With hands‑on experience in React and Node.js, I bridge front‑end and back‑end to deliver scalable, user‑centric solutions. A quick learner and collaborative partner, I transform raw data into actionable insights and production‑ready models that solve real‑world problems.
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
