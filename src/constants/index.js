@@ -27,7 +27,7 @@ import {
   secondTestimonial,
   thirdTestimonial,
   Jarvis,
-  klassroom,
+  Klassroom,
   ConnectX
 } from '../assets'
 import acc from "../assets/company/acc.png";
@@ -238,7 +238,7 @@ const projects = [
         color: "white-text-gradient",
       },
     ],
-    image: klassroom,
+    image: Klassroom,
     source_code_link: "https://github.com/Future1625/Klassroom", 
   },
   {

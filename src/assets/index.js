@@ -26,7 +26,7 @@ import Sklearn from './tech/Sklearn.svg';
 import Pandas from './tech/Pandas.svg';
 import numpy from './tech/numpy.svg';
 import Jarvis from './tech/Jarvis.webp';
-import klassroom from './tech/klassroom.png';
+import Klassroom from './tech/Klassroom.png';
 import ConnectX from './tech/ConnectX.png';
 
 export {
@@ -58,6 +58,6 @@ export {
   Pandas,
   numpy,
   Jarvis,
-  klassroom,
+  Klassroom,
   ConnectX
 };
