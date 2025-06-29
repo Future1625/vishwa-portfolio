@@ -2,45 +2,37 @@
 import {
   logo,
   backend,
-  creator,
+  // creator,
   mobile,
   web,
   github,
   menu,
   close,
   css,
-  gearXpert,
-  project2,
-  project3,
   mysql,
   express,
-  aws,
-  mui,
-  
-  gsap,
-  framer,
-  figma,
+  python,
+  Tensorflow,
+  Sklearn,
+  Pandas,
+  numpy,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
-  threejs,
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+  Jarvis,
 } from '../assets'
-
-
-// Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
+import acc from "../assets/company/acc.png";
+import octanet from "../assets/company/octanet.png";
 
 
 export const navLinks = [
-
 
   {
     id: "about",
@@ -59,24 +51,48 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Python Developer",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Machine Learning Enthusiast",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "web Developer",
     icon: backend,
   },
-  {
-    title: "Ui UX Designer",
-    icon: creator,
-  },
+  // {
+  //   title: "Ui UX Designer",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "scikit-learn",
+    icon: Sklearn,
+  },
+  {
+    name: "Tensorflow",
+    icon: Tensorflow,
+  },
+  {
+    name: "Pandas",
+    icon: Pandas,
+  },
+  {
+    name: "numpy",
+    icon: numpy,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -94,36 +110,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
-
- 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Material Ui",
-    icon: mui,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -132,38 +118,45 @@ const technologies = [
     icon: express,
   },
   {
-    name: "AWS",
-    icon: aws,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "MySql",
-    icon: mysql,
-  },
-
-  {
     name: "git",
     icon: git,
   },
- 
 
 ];
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
-    iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    title: "Web Development Intern",
+    company_name: "OctaNet Services Pvt. Ltd.",
+    icon: octanet,
+    iconBg: "white",
+    date: "Feb 2024 - Apr 2024",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed dynamic, responsive landing pages to enhance user engagement and functionality.",
+      "Utilized HTML, CSS, and JavaScript to create visually appealing and intuitive web interfaces.",
+      "Strengthened front-end development skills through hands-on experience with real-world applications.",
+      "Improved attention to detail and UI design while contributing to meaningful web-based projects.",
+    ],
+  },
+  {
+    title: "Software Development Intern",
+    company_name: "Applied Cloud Computing",
+    icon: acc,
+    iconBg: "white",
+    date: "Dec 2024 - Jan 2025",
+    points: [
+      "Working as an intern in the Digitalization Department focused on enhancing business processes through modern web technologies.",
+      "Building responsive and user-friendly digital interfaces using HTML, CSS, JavaScript, and Tailwind CSS.",
+      "Strengthening core frontend skills while gaining practical experience in scalable UI design.",
+      "Understanding the role of modern web development in supporting organizational digital transformation initiatives.",
     ],
   },
 ];
@@ -171,103 +164,111 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
+      "I was amazed by how smooth and responsive our landing page became after Vishwa worked on it. He truly understands what users want.",
+    name: "Rohan Mehta",
+    designation: "Marketing Head",
+    company: "PixelKart",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+      "Vishwa didn’t just build our site—he made sure it reflected our brand perfectly. He’s detail-oriented and always delivers on time.",
+    name: "Sneha Sharma",
+    designation: "Co-founder",
+    company: "CraftNest",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Thanks to Vishwa's optimization, our site now loads 2x faster. It’s helped us retain more users and boost conversions.",
+    name: "Arjun Nair",
+    designation: "Tech Lead",
+    company: "TrendyTech",
     image: thirdTestimonial,
   },
 ];
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Jarvis",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Jarvis is a smart desktop assistant built with Python that automates everyday tasks like opening apps, checking weather, playing music, sending emails, and more using voice commands. It's a personal productivity booster with a sleek terminal interface.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "speechRecognition",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pyttsx3",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "automation",
         color: "white-text-gradient",
       },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
- 
     ],
-    image: project2,
-    source_code_link: "https://github.com/",
+    image: Jarvis, // replace with your actual imported image
+    source_code_link: "https://github.com/Future1625/Jarvis", 
   },
   {
-    name: "GearXpert",
+    name: "Klassroom",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "Klassroom is a full-featured Learning Management System (LMS) that enables smooth collaboration between students and mentors. It includes dashboards, a mentor–mentee system, certificate upload via Google Cloud, and organized class/timetable management.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
+        name: "flask",
         color: "green-text-gradient",
       },
       {
-        name: "Gsap",
+        name: "googleCloud",
         color: "pink-text-gradient",
       },
+      {
+        name: "mysql",
+        color: "white-text-gradient",
+      },
     ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
+    // image: klassroomImage,
+    source_code_link: "https://github.com/Future1625/Klassroom", 
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "ConnectX",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "ConnectX is a platform that bridges professionals and learners through structured communication tools. It supports real-time chat, community discussions, and showcases developer profiles—ideal for mentorship and tech networking.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
       },
       {
         name: "express",
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "socket.io",
+        color: "pink-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    // image: connectxImage,
+    source_code_link: "hhttps://github.com/jadhavharshh/ConnectX",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
