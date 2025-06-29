@@ -12,7 +12,7 @@ import {
   mysql,
   express,
   python,
-  Tensorflow,
+  TensorFlow,
   Sklearn,
   Pandas,
   numpy,
@@ -81,7 +81,7 @@ const technologies = [
   },
   {
     name: "Tensorflow",
-    icon: Tensorflow,
+    icon: TensorFlow,
   },
   {
     name: "Pandas",

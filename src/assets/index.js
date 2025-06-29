@@ -21,7 +21,7 @@ import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
 import python from './tech/python.png';
-import Tensorflow from './tech/Tensorflow.png';
+import TensorFlow from './tech/TensorFlow.png';
 import Sklearn from './tech/Sklearn.svg'; 
 import Pandas from './tech/Pandas.svg';
 import numpy from './tech/numpy.svg';
@@ -53,7 +53,7 @@ export {
   reactjs,
   tailwind,
   python,
-  Tensorflow,
+  TensorFlow,
   Sklearn,
   Pandas,
   numpy,
