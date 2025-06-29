@@ -27,6 +27,8 @@ import {
   secondTestimonial,
   thirdTestimonial,
   Jarvis,
+  klassroom,
+  ConnectX
 } from '../assets'
 import acc from "../assets/company/acc.png";
 import octanet from "../assets/company/octanet.png";
@@ -236,7 +238,7 @@ const projects = [
         color: "white-text-gradient",
       },
     ],
-    // image: klassroomImage,
+    image: klassroom,
     source_code_link: "https://github.com/Future1625/Klassroom", 
   },
   {
@@ -265,7 +267,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: connectxImage,
+    image: ConnectX,
     source_code_link: "hhttps://github.com/jadhavharshh/ConnectX",
   },
 ];
